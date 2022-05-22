@@ -1,5 +1,4 @@
-/* upp  */
-
+/*name and title*/
 body {
   width: 21cm;
   height: 29.7cm;
@@ -124,7 +123,7 @@ body {
   text-decoration: none;
 }
 
-/*<!-- content conteiner -->*/
+/*<!-- resume,education,objetive,skills conteiner -->*/
 
 .information {
   background: rgb(79, 79, 79);
@@ -148,7 +147,7 @@ body {
   margin: 50px 10px 0px 10px;
   color: rgb(242, 242, 243);
 }
-/*<!-- container Languages-->*/
+/*container Languages*/
 
 .idioms {
   padding: 10px 0px 0px 10px;
@@ -186,7 +185,7 @@ body {
   padding: 0px 0px 0px 0px;
   border-radius: 10px;
 }
-/*<!-- container skills-->*/
+/*container skills*/
 .container {
   width: 100%;
   height: 30%;
@@ -214,24 +213,8 @@ body {
 }
 
 .skills-content {
-  width: 90%;
-  height: 100%;
-  padding: 10px 10px 0px 10px;
+  padding: 0px 0px 0px 10px;
   margin: 0px 0px 0px 0px;
-  display: flex;
-  flex-direction: row;
-}
-
-.progress {
-  background-color: rgb(140, 140, 140);
-  border-radius: 100px;
-  border: 1px solid rgb(140, 140, 140);
-  width: 100%;
-  height: 18px;
-  margin: 5px 10px 0px 15px;
-  border: 1px solid rgb(69, 67, 67);
-  font-size: 13px;
-  text-align: center;
 }
 
 .skill-ima {
@@ -239,15 +222,16 @@ body {
   height: 23px;
 }
 
-.progress-bar {
-  background-color: rgb(249, 215, 61);
-  border-radius: 100px;
-  border: 1px solid rgb(140, 140, 140);
-  height: 18px;
-  border: 1px solid rgb(69, 67, 67);
+.flexx-skills {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 100px;
+  padding: 20px 10px 0px 10px;
+  margin: 0px 0px 0px 20px;
 }
 
-/*<!-- container Education -->*/
+/*container Education*/
 .h2-education {
   padding: 40px 0px 0px 0px;
   margin: 0px 0px 0px 45px;
@@ -285,7 +269,9 @@ body {
   margin: 0px 10px 0px 0px;
 }
 
-/*<!-- container certification -->*/
+/*container certification and experiences*/
+
+/*container certification*/
 .cer-exp {
   width: 100%;
   height: 100%;
@@ -396,7 +382,7 @@ body {
   border-radius: 100px;
 }
 
-/*<!-- container experience -->*/
+/*container experience*/
 .experience {
   background: rgb(255, 255, 255);
   width: 100%;
